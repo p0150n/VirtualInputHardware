@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "exports": {
+    "WindowsInput/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v2.0",
+      "compile": {
+        "bin/Debug/WindowsInput.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/WindowsInput.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/WindowsInput.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿<Application
+    x:Class="VirtualInputHardware.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converters="using:VirtualInputHardware.UWP.Mvvm.Converters" >
+
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <converters:DoubleToIntConverter x:Key="DoubleToInt"/>
+            <converters:IntToDoubleConverter x:Key="IntToDouble"/>
+            <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibility" IsReversed="False"/>
+            <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityReversed" IsReversed="true"/>
+        </ResourceDictionary>
+    </Application.Resources>
+    
+</Application>
